@@ -24,7 +24,7 @@ public class MathUtil {
 
     // Return the nth Fibonacci number
     public static int fibonacci(int n) {
-        if (n < 0) throw new IllegalArgumentException("n must be non-negative");
+        if (n < 0) throw new IllegalArgumentException("n non-negative");
         if (n == 0) return 0; 
         if (n == 1) return 1; 
 
@@ -39,7 +39,7 @@ public class MathUtil {
 
     // Calculate the factorial of n
     public static long factorial(int n) {
-        if (n < 0) throw new IllegalArgumentException("n must be non-negative");
+        if (n < 0) throw new IllegalArgumentException("n non-negative");
         long result = 1; // Initialize result to 1
         for (int i = 1; i <= n; i++) {
             result *= i; // Multiply numbers from 1 to n
